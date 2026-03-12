@@ -370,7 +370,7 @@ var Edge_Mac_arm64_141 = ParseGospiderSpecNoError("16030106d2010006ce030323d2bc4
 func AutoAddHeaders(req *http.Request) {
 	userAgent := req.Header.Get("User-Agent")
 	ua := useragent.Parse(userAgent)
-	if !ua.IsChrome() && !ua.IsSafari() && !ua.IsFirefox() {
+	if !ua.IsChrome() && !ua.IsSafari() && !ua.IsFirefox() && !ua.IsEdge() {
 		return
 	}
 	var sec_ua string

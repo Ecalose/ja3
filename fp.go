@@ -405,34 +405,34 @@ func AutoAddHeaders(req *http.Request) {
 			sec_platform = `"Chrome OS"`
 		}
 	}
-	if req.Header.Get("Sec-Ch-Ua") == "" {
+	if len(req.Header.Values("Sec-Ch-Ua")) == 0 {
 		req.Header.Set("Sec-Ch-Ua", sec_ua)
 	}
-	if req.Header.Get("Sec-Ch-Ua-Platform") == "" {
+	if len(req.Header.Values("Sec-Ch-Ua-Platform")) == 0 {
 		req.Header.Set("Sec-Ch-Ua-Platform", sec_platform)
 	}
-	if req.Header.Get("Sec-Ch-Ua-Mobile") == "" {
+	if len(req.Header.Values("Sec-Ch-Ua-Mobile")) == 0 {
 		req.Header.Set("Sec-Ch-Ua-Mobile", sec_mobile)
 	}
-	if req.Header.Get("sec-fetch-site") == "" {
+	if len(req.Header.Values("sec-fetch-site")) == 0 {
 		req.Header.Set("sec-fetch-site", inferSecFetchSite(req))
 	}
-	if req.Header.Get("sec-fetch-dest") == "" {
+	if len(req.Header.Values("sec-fetch-dest")) == 0 {
 		req.Header.Set("sec-fetch-dest", inferFetchDest(req))
 	}
-	if req.Header.Get("sec-fetch-mode") == "" {
+	if len(req.Header.Values("sec-fetch-mode")) == 0 {
 		req.Header.Set("sec-fetch-mode", inferFetchMode(req))
 	}
-	if req.Header.Get("accept-language") == "" {
+	if len(req.Header.Values("accept-language")) == 0 {
 		req.Header.Set("accept-language", "en-US,en;q=0.9")
 	}
-	if req.Header.Get("accept-encoding") == "" {
+	if len(req.Header.Values("accept-encoding")) == 0 {
 		req.Header.Set("accept-encoding", "gzip, deflate, br, zstd")
 	}
-	if req.Header.Get("priority") == "" {
+	if len(req.Header.Values("priority")) == 0 {
 		req.Header.Set("priority", "u=1, i")
 	}
-	if req.Header.Get("accept") == "" {
+	if len(req.Header.Values("accept")) == 0 {
 		req.Header.Set("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,application/json,text/plain;q=0.8,image/avif,image/webp,image/apng,image/svg+xml,image/*;q=0.8,video/mp4,video/webm,video/ogg,audio/mpeg,audio/ogg,audio/wav,font/woff2,font/woff,font/ttf,font/otf,application/font-woff,application/font-woff2,application/octet-stream,*/*;q=0.5")
 	}
 }

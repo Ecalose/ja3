@@ -84,6 +84,11 @@ func (obj *Client) changeSpec(key string, spec utls.ClientHelloSpec) (change boo
 }
 
 func (obj *Client) Client(ctx context.Context, conn net.Conn, spec *TlsSpec, utlsConfig *utls.Config, serverName string, forceHttp1 bool) (utlsConn *utls.UConn, err error) {
+	defer func() {
+		if err != nil {
+			conn.Close()
+		}
+	}()
 	utlsSpec := spec.utlsClientHelloSpec()
 	if forceHttp1 {
 		utlsConfig.NextProtos = []string{"http/1.1"}

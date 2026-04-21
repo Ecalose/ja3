@@ -2,7 +2,7 @@ module github.com/gospider007/ja3
 
 go 1.26.0
 
-// replace github.com/refraction-networking/utls => ./utls
+replace github.com/refraction-networking/utls => ./utls
 
 require (
 	github.com/gospider007/kinds v0.0.0-20260211060834-06a10e2431d8

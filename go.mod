@@ -27,7 +27,7 @@ require (
 	github.com/google/pprof v0.0.0-20260402051712-545e8a4df936 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
 	github.com/minio/minlz v1.1.0 // indirect
-	github.com/onsi/ginkgo/v2 v2.28.1 // indirect
+	github.com/onsi/ginkgo/v2 v2.28.2 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/stretchr/testify v1.11.1 // indirect

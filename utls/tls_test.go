@@ -31,9 +31,9 @@ import (
 
 	"golang.org/x/crypto/cryptobyte"
 
-	"github.com/refraction-networking/utls/internal/fips140tls"
-	"github.com/refraction-networking/utls/internal/hpke"
-	"github.com/refraction-networking/utls/testenv"
+	"github.com/gospider007/ja3/utls/internal/fips140tls"
+	"github.com/gospider007/ja3/utls/internal/hpke"
+	"github.com/gospider007/ja3/utls/testenv"
 )
 
 var rsaCertPEM = `-----BEGIN CERTIFICATE-----

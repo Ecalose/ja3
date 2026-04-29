@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"sync"
 
+	utls "github.com/gospider007/ja3/utls"
 	"github.com/gospider007/kinds"
 	"github.com/gospider007/re"
 	"github.com/gospider007/tools"
-	utls "github.com/refraction-networking/utls"
 )
 
 type specErr struct {

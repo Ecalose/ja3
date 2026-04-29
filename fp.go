@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"net/http"
 
+	utls "github.com/gospider007/ja3/utls"
 	"github.com/gospider007/tools"
 	"github.com/mileusna/useragent"
-	utls "github.com/refraction-networking/utls"
 	"golang.org/x/crypto/cryptobyte"
 )
 

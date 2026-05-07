@@ -7,7 +7,7 @@ require (
 	github.com/gospider007/kinds v0.0.0-20260211060834-06a10e2431d8
 	github.com/gospider007/re v0.0.0-20260227072205-6223d82a3dab
 	github.com/gospider007/tools v0.0.0-20260430083756-020b5f69927f
-	github.com/klauspost/compress v1.18.5
+	github.com/klauspost/compress v1.18.6
 	github.com/mileusna/useragent v1.3.5
 	github.com/refraction-networking/uquic v0.0.6
 	golang.org/x/crypto v0.50.0
@@ -16,7 +16,7 @@ require (
 )
 
 require (
-	github.com/Masterminds/semver/v3 v3.4.0 // indirect
+	github.com/Masterminds/semver/v3 v3.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/gaukas/clienthellod v0.4.2 // indirect
 	github.com/gaukas/godicttls v0.0.4 // indirect

@@ -6,7 +6,7 @@ require (
 	github.com/andybalholm/brotli v1.2.1
 	github.com/gospider007/kinds v0.0.0-20260211060834-06a10e2431d8
 	github.com/gospider007/re v0.0.0-20260227072205-6223d82a3dab
-	github.com/gospider007/tools v0.0.0-20260430083756-020b5f69927f
+	github.com/gospider007/tools v0.0.0-20260507014611-387e681875ab
 	github.com/klauspost/compress v1.18.6
 	github.com/mileusna/useragent v1.3.5
 	github.com/refraction-networking/uquic v0.0.6
@@ -24,7 +24,7 @@ require (
 	github.com/goccy/go-yaml v1.19.2 // indirect
 	github.com/golang/snappy v1.0.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
-	github.com/google/pprof v0.0.0-20260402051712-545e8a4df936 // indirect
+	github.com/google/pprof v0.0.0-20260507013755-92041b743c96 // indirect
 	github.com/minio/minlz v1.1.1 // indirect
 	github.com/onsi/ginkgo/v2 v2.28.3 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect

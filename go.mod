@@ -25,7 +25,7 @@ require (
 	github.com/golang/snappy v1.0.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/pprof v0.0.0-20260709232956-b9395ee17fa0 // indirect
-	github.com/minio/minlz v1.1.1 // indirect
+	github.com/minio/minlz v1.2.0 // indirect
 	github.com/onsi/ginkgo/v2 v2.32.0 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect

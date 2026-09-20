@@ -405,13 +405,13 @@ func AutoAddHeaders(req *http.Request) {
 			sec_platform = `"Chrome OS"`
 		}
 	}
-	if len(req.Header.Values("Sec-Ch-Ua")) == 0 {
+	if len(req.Header.Values("Sec-Ch-Ua")) == 0 && sec_ua != "" {
 		req.Header.Set("Sec-Ch-Ua", sec_ua)
 	}
-	if len(req.Header.Values("Sec-Ch-Ua-Platform")) == 0 {
+	if len(req.Header.Values("Sec-Ch-Ua-Platform")) == 0 && sec_platform != "" {
 		req.Header.Set("Sec-Ch-Ua-Platform", sec_platform)
 	}
-	if len(req.Header.Values("Sec-Ch-Ua-Mobile")) == 0 {
+	if len(req.Header.Values("Sec-Ch-Ua-Mobile")) == 0 && sec_mobile != "" {
 		req.Header.Set("Sec-Ch-Ua-Mobile", sec_mobile)
 	}
 	if len(req.Header.Values("sec-fetch-site")) == 0 {

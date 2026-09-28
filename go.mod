@@ -3,11 +3,11 @@ module github.com/gospider007/ja3
 go 1.27.0
 
 require (
-	github.com/andybalholm/brotli v1.2.4
+	github.com/andybalholm/brotli v1.2.5
 	github.com/gospider007/kinds v0.0.0-20260824054539-a612e386b5ac
 	github.com/gospider007/re v0.0.0-20260824054539-32823144d328
 	github.com/gospider007/tools v0.0.0-20260922022651-0a9e58d5bc65
-	github.com/klauspost/compress v1.20.0
+	github.com/klauspost/compress v1.20.1
 	github.com/mileusna/useragent v1.3.5
 	github.com/refraction-networking/uquic v0.0.6
 	golang.org/x/crypto v0.57.0
@@ -23,7 +23,7 @@ require (
 	github.com/goccy/go-yaml v1.19.2 // indirect
 	github.com/golang/snappy v1.0.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
-	github.com/google/pprof v0.0.0-20260906184651-6331bc6350fe // indirect
+	github.com/google/pprof v0.0.0-20260926063103-aaccee046517 // indirect
 	github.com/minio/minlz v1.2.0 // indirect
 	github.com/onsi/ginkgo/v2 v2.33.0 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect
